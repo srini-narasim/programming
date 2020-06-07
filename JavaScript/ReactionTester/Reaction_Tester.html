@@ -1,0 +1,36 @@
+<!-- Displaying shapes and circles of different sizes
+  across the screen and determining how long it takes
+  you to press the shape. -->
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Reaction Timer</title>
+    <link rel="stylesheet" text="text/css" href="Reaction_Tester.css"/>
+      body {
+        font-family: sans-serif;
+      }
+
+      #shape{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        display: none;
+        position: relative;
+      }
+      .bold{
+        font-weight: bold;
+
+      }
+  </head>
+  <body>
+    <h1>Test Your Reactions!</h1>
+    <p>Click on the boxes and circles as quickly as you can!</p>
+    <p class="bold">Your time: <span id="timeTaken"></span></p>
+    <div id="shape"></div>
+    <script type="text/javascript" src="Reaction_Tester.js"></script>
+
+  </body>
+</html>
